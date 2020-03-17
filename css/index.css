@@ -2,11 +2,20 @@ body{
     min-height: 100vh;
     background-color: #f6f6f4;
 }
+small{
+    color: #b6b4ab;
+}
 .rewrite-box{
     border-radius: 3px;
     box-shadow:none;
     padding: 0;
     background-color: rgba(255,253,240,0);
+}
+.box:not(:last-child){
+    margin-bottom: 0.8rem;
+}
+.left-menu{
+    width: 200px;background-color: #f6f6f4;margin-top: 3rem
 }
 .rewrite-columns{
     width: 100%;
@@ -17,7 +26,7 @@ body{
     padding: 0;
 }
 .nav-limit{
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -65,10 +74,32 @@ body{
 .level-item:not(:last-child) {
      margin-bottom: 0;
 }
+.rewrite-panel-tabs li{
+    text-align: center;
+    flex: 1;
+}
+.rewrite-columns{
+    margin-top: 0rem;
+}
+/*改变底部排版*/
+    .footer-items{
+        display: inline-block !important;
+    }
+    .footer-item{
+        width: 100% !important;
+    }
+    .footer-items-wrap{
+        display: flex !important;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer-items-wrap small{
+        padding: 0 1rem;
+    }
 }
 @media screen and (min-width: 1024px){
 .nav-limit{
-    width: 1100px;
+    width: 1120px;
 }
 }
 @media screen and (max-width: 1024px){
@@ -101,8 +132,7 @@ body{
 }
 }
 .rewrite-panel{
-    padding-left: 1rem;
-    padding-bottom: 0;
+    padding:0 0.75rem;
     border-bottom: 1px solid #e8e8e8;
 }
 .panel-title{
@@ -126,4 +156,84 @@ ul.rewrite-panel-tabs li:hover{
 ul.rewrite-panel-tabs li.is-active{
     border-bottom: 2px solid #95d117;
     color: #95d117;
+}
+
+.re-panel{
+    padding: 0 1rem;
+}
+small span{
+    padding: 0 0.3rem;
+}
+.rewrite-panel-title small{
+    float: right;
+}
+.rewrite-panel-title small span.is-active{
+    color: #4a4a4a;
+    font-weight: bold;
+}
+.rewrite-panel-title small span:hover{
+    color: #4a4a4a;
+}
+.rank-wrap{
+    width: 95%;
+    padding: 0.5rem auto;
+    margin: 0 auto;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+.rank-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ranking{
+    width: 1rem;
+    height: 1rem;
+
+}
+.rank-img{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin: 0 1rem;
+    background-color: #b6b4ab;
+}
+.rank-name{
+    line-height: 1rem;
+    color: #0a0a0a;
+}
+.contribution{
+    text-align: center;
+    float: right;
+}
+.is-gold{
+    color: #ffc400;
+}
+.is-silver{
+    color: #c9c9c9;
+}
+.is-bronze{
+    color: #ac6d4d;
+}
+.footer{
+    background-color: #3e3e3e;
+    margin-top: 64px;
+    padding: 32px 16px;
+    color: #fff;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    flex: 1;
+}
+.footer-item-title{
+    width: 100%;
+}
+.footer-items-wrap{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
