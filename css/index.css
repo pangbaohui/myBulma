@@ -101,6 +101,9 @@ small{
 .nav-limit{
     width: 1120px;
 }
+    .level{
+        align-items: flex-start;
+    }
 }
 @media screen and (max-width: 1024px){
 .navbar-dropdown {
@@ -222,6 +225,9 @@ small span{
     margin-top: 64px;
     padding: 32px 16px;
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 .footer-items{
     display: flex;
