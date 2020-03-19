@@ -44,7 +44,7 @@
             </div>
                 <div class="level-item is-hidden-touch">
                     <p class="control has-icons-left has-icons-right">
-                        <input class="input is-small is-warning" type="text" placeholder="搜索...">
+                        <input class="input is-small is-success re-input" type="text" placeholder="搜索...">
                         <span class="icon is-small is-left">
                         <i class="fas fa-search"></i>
                     </span>
@@ -74,11 +74,11 @@
 </div>
 </nav>
 <!--nav end-->
-<ul class="menu-list columns is-hidden-tablet" style="text-align: center;margin: 0;padding: 0 1rem;display: flex;overflow-x: auto;">
-    <li class="column" style="padding: 0.75rem 0.2rem"><a>Team</a></li>
-    <li class="column" style="padding: 0.75rem 0.2rem"><a class="is-active is-success">Manage</a></li>
-    <li class="column" style="padding: 0.75rem 0.2rem"><a>Invitations</a></li>
-    <li class="column" style="padding: 0.75rem 0.2rem"><a>Settings</a></li>
+<ul class="menu-list columns is-hidden-tablet menu-hidden-tablet-ul">
+    <li class="column"><a class="menu-hidden-tablet-li">Team</a></li>
+    <li class="column"><a class=" is-active is-success menu-hidden-tablet-li">Manage</a></li>
+    <li class="column"><a class="menu-hidden-tablet-li">Invitations</a></li>
+    <li class="column"><a class="menu-hidden-tablet-li">Settings</a></li>
 </ul>
 <div class="columns nav-limit">
     <!--左侧导航栏-->
@@ -96,7 +96,7 @@
     <!--右侧主体-->
     <div class="columns is-desktop level rewrite-columns">
         <div class="column is-two-thirds-widescreen is-8-desktop rewrite-column">
-            <div style="background-color: white;margin-bottom: 1rem;padding-bottom: 1rem;margin-right: 0.75rem;">
+            <div class="main-content-wrap">
                 <nav class="rewrite-panel">
                     <div class="panel-title">
                         <strong>トレンド</strong>
@@ -116,7 +116,7 @@
                     </figure>
                     <div class="media-content">
                         <div class="content">
-                            <strong>これからエンジニアを目指す人に見て欲しいです。</strong>
+                            <strong class="media-title text-decoration">これからエンジニアを目指す人に見て欲しいです。</strong>
                             <br>
                             <div><small>by hukusuke1007 2 days ago <b>LGTM</b>881</small></div>
                         </div>
@@ -130,7 +130,7 @@
                     </figure>
                     <div class="media-content">
                         <div class="content">
-                            <strong>これからエンジニアを目指す人に見て欲しいです。</strong>
+                            <strong class="media-title text-decoration">これからエンジニアを目指す人に見て欲しいです。</strong>
                             <br>
                             <div><small>by hukusuke1007 2 days ago <b>LGTM</b>881</small></div>
                         </div>
@@ -151,8 +151,8 @@
                         <div class="" style="background-color: white;padding-bottom: 1rem">
                             <nav class="rewrite-panel re-panel">
                                 <div class="panel-title rewrite-panel-title">
-                                    <strong>トレンド</strong>
-                                    <small><span class="is-active" >day</span><span>week</span><span>month</span></small>
+                                    <strong>Users ranking</strong>
+                                    <small><span class="is-active" >Weekly</span><span>Monthly</span><span>All</span></small>
                                 </div>
                             </nav>
                             <div class="rank-wrap">
@@ -164,11 +164,10 @@
                                         <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
                                     </div>
                                     <div class="rank-name">
-                                        <div>弓削 隼大 </div>
-                                        <div><small>@FPC_COMMUNITY </small></div>
+                                        <div class="text-decoration">弓削 隼大 </div>
+                                        <div><small class="text-decoration">@FPC_COMMUNITY </small></div>
                                     </div>
                                 </div>
-
                                 <div class="contribution">
                                     <strong><b>1181</b></strong>
                                     <br>
@@ -184,11 +183,10 @@
                                         <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
                                     </div>
                                     <div class="rank-name">
-                                        <div>弓削 隼大 </div>
-                                        <div><small>@FPC_COMMUNITY </small></div>
+                                        <div class="text-decoration">弓削 隼大 </div>
+                                        <div><small  class="text-decoration">@FPC_COMMUNITY </small></div>
                                     </div>
                                 </div>
-
                                 <div class="contribution">
                                     <strong><b>1181</b></strong>
                                     <br>
@@ -204,18 +202,82 @@
                                         <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
                                     </div>
                                     <div class="rank-name">
-                                        <div>弓削 隼大 </div>
-                                        <div><small>@FPC_COMMUNITY </small></div>
+                                        <div class="text-decoration">弓削 隼大 </div>
+                                        <div><small class="text-decoration">@FPC_COMMUNITY </small></div>
                                     </div>
                                 </div>
-
                                 <div class="contribution">
                                     <strong><b>1181</b></strong>
                                     <br>
                                     <small>contributions</small>
                                 </div>
                             </div>
-
+                        </div>
+                    </div>
+                </article>
+                <article class="box rewrite-box">
+                    <div >
+                        <div class="" style="background-color: white;padding-bottom: 1rem">
+                            <nav class="rewrite-panel re-panel">
+                                <div class="panel-title rewrite-panel-title">
+                                    <strong>Tags ranking</strong>
+                                    <small><span class="is-active" >Weekly</span><span>Monthly</span><span>All</span></small>
+                                </div>
+                            </nav>
+                            <div class="rank-wrap">
+                                <div class="rank-left">
+                                    <div class="ranking">
+                                        <span class="icon"><i class="fa fa-trophy is-gold"></i></span>
+                                    </div>
+                                    <div class="rank-img">
+                                        <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
+                                    </div>
+                                    <div class="rank-name">
+                                        <div class="text-decoration">Python</div>
+                                    </div>
+                                </div>
+                                <div class="contribution">
+                                    <strong><b>325</b></strong>
+                                    <br>
+                                    <small>Posts</small>
+                                </div>
+                            </div>
+                            <div class="rank-wrap">
+                                <div class="rank-left">
+                                    <div class="ranking">
+                                        <span class="icon"><i class="fa fa-trophy is-silver"></i></span>
+                                    </div>
+                                    <div class="rank-img">
+                                        <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
+                                    </div>
+                                    <div class="rank-name">
+                                        <div class="text-decoration">JavaScript</div>
+                                    </div>
+                                </div>
+                                <div class="contribution">
+                                    <strong><b>325</b></strong>
+                                    <br>
+                                    <small>Posts</small>
+                                </div>
+                            </div>
+                            <div class="rank-wrap">
+                                <div class="rank-left">
+                                    <div class="ranking">
+                                        <span class="icon"><i class="fa fa-trophy is-bronze"></i></span>
+                                    </div>
+                                    <div class="rank-img">
+                                        <img src="https://qiita-user-profile-images.imgix.net/https%3A%2F%2Favatars1.githubusercontent.com%2Fu%2F15135785%3Fv%3D4?ixlib=rb-1.2.2&auto=compress%2Cformat&lossless=0&w=48&s=95dc41972d60cbcad005c1dde83f88b1">
+                                    </div>
+                                    <div class="rank-name">
+                                        <div class="text-decoration">Rails</div>
+                                    </div>
+                                </div>
+                                <div class="contribution">
+                                    <strong><b>325</b></strong>
+                                    <br>
+                                    <small>Posts</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -270,33 +332,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="columns">-->
-            <!--<div class="columns">-->
-
-                <!--<div class="column">-->
-
-
-                <!--</div>-->
-                <!--<div class="column">-->
-                    <!--<br>-->
-
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-
-        <!--<br>-->
-        <!--<div class="columns">-->
-
-            <!--<div class="columns">-->
-
-                <!--<div class="column">-->
-
-                <!--</div>-->
-                <!--<div class="column">-->
-
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
     </div>
 </footer>
 </body>
