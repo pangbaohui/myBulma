@@ -84,14 +84,14 @@ ul.menu-list li{
     padding: 0 1rem;
 }
 .menu-list a.is-active{
-    background-color: #48c774;
+    background-color: #56c700;
 }
 .menu-list a:hover{
     background-color: #e6e5e0;
     color: #85837a;
 }
 .menu-list a.is-active:hover{
-    background-color: #46b664;
+    background-color: #50a400;
     color: white;
 }
 @media screen and (max-width: 768px){
